@@ -31,4 +31,4 @@ jobs:
         PASSWORD: ${{ secrets.PASSWORD }}
         SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
       run: |
-        python iamok.py
+        python baopingan.py
