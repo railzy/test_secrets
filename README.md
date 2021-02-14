@@ -1,5 +1,5 @@
 # Usage
-`setting` → `secret`
+`setting` → `secrets`
 
 add
 
