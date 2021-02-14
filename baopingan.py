@@ -12,11 +12,12 @@ import random
 
 
 def push_notices(title, desp=''):
-    serverchan_url = 'https://sctapi.ftqq.com/'
-    serverchan_key = os.environ["SERVERCHAN_KEY"]
-    post_url = serverchan_url + serverchan_key + '.send'
-    postdata = {'title': title, 'desp': desp}
-    requests.get(post_url, postdata)
+    if "SERVERCHAN_KEY" in os.environ:
+        serverchan_url = 'https://sctapi.ftqq.com/'
+        serverchan_key = os.environ["SERVERCHAN_KEY"]
+        post_url = serverchan_url + serverchan_key + '.send'
+        postdata = {'title': title, 'desp': desp}
+        requests.get(post_url, postdata)
 
 
 user = os.environ["USER"]
