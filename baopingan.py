@@ -163,7 +163,7 @@ if lastdate != bjitoday:
         # f.write(
         #     time.strftime("%Y-%m-%d", time.localtime()) + "\n" +
         #     time.strftime("%H:%M:%S", time.localtime()) + "\n" + addpost.text)
-        if addpost.json()['msg']=='执行成功':
+        if addpost.json()['msg']=='执行成功!':
             print("您已成功提交健康信息！")
             # push_notices("github_scut_iamok健康信息已成功提交！", addpost.text)
         else:
