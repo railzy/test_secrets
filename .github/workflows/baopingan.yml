@@ -7,8 +7,8 @@ on:
   push:
     branches: 
       - master
-  schedule:
-    - cron: '0 0,1,2 * * *' # 北京时间8,9,10
+  #schedule:
+  #  - cron: '0 0,1,2 * * *' # 北京时间8,9,10
 
 jobs:
   my_job:
