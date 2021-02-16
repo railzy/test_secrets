@@ -123,7 +123,7 @@ except BaseException as e:
 
 lastdate = getdata['healthRptInfor']["dRptDate"]
 
-if lastdate == bjitoday:
+if lastdate != bjitoday:
     try:
         # 随机延误
         time.sleep(random.randint(1, 10))
