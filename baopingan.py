@@ -13,9 +13,12 @@ import random
 
 
 if "SERVERCHAN_KEY" in os.environ:
-       serverchan_key = os.environ["SERVERCHAN_KEY"]
+    serverchan_key = os.environ["SERVERCHAN_KEY"]
+    print('exist')
         
 user = os.environ["USER"]
 passwd = os.environ["PASSWORD"]
 
 print(serverchan_key)
+print(user)
+print(passwd)
