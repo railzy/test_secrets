@@ -23,7 +23,7 @@ print(serverchan_key)
 print(user)
 print(passwd)
 
-if serverchan_key==null:
+if serverchan_key==NULL:
     print('serverchan_key=null')
 if serverchan_key=='':
     print("serverchan_key=''")
